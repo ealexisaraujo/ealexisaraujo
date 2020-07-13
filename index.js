@@ -1,9 +1,6 @@
 const app = require('./app');
 const { createConnection } = require('./db');
-const cors = require('cors');
-
-app.use(cors());
-app.use(express.json());
+const { config } = require('./config/index');
 
 createConnection();
 app.listen(config.port, function () {
