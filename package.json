@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "DEBUG=app:* nodemon src/index --ignore db.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev2": "node index"
+    "start": "node index"
   },
   "keywords": [],
   "author": "Alexis Araujo <ala1289@gmail.com>",
